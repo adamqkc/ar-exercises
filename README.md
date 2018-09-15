@@ -9,7 +9,7 @@ You'll find that this project has two Active Record "models" (classes):
 
 This means that there is a `stores` table and an `employees` table in the database that it is using. Since we are using an ORM, we just use the two ruby classes and their instances to manage (CRUD) that data.
 
-We'll be modifying this database via Active Record only. The `setup.rb` file already defines the database structure so you _don't need_ to create anything in the database using SQL manually.
+We'll be modifying this database via Active Record only defines the database structure so you _don't need_ to create anything in the database using SQL manually.
 
 That said, feel free to connect to your Postgres database using `psql` or pgAdmin so that you can see what's in the database.
 
